@@ -1,4 +1,5 @@
 #!/bin/bash
+
 sudo apt update && sudo apt upgrade -y
 sudo apt-get install git
 git clone -b monolith https://github.com/express42/reddit.git
