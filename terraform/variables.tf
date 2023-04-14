@@ -22,3 +22,11 @@ variable subnet_id{
 variable service_account_key_file{
   description = "key .json"
 }
+variable "instances_count" {
+  description = "Count instances"
+  default     = 1
+}
+variable "region_id" {
+  description = "Region"
+  default     = "ru-central1"
+}
