@@ -5,7 +5,6 @@ provider "yandex" {
   zone      = var.zone
 }
 
-#resource "yandex_compute_instance.app[count.index]" "app" {
 resource "yandex_compute_instance" "app" {
   timeouts {
     create = "1h30m"
@@ -13,7 +12,6 @@ resource "yandex_compute_instance" "app" {
     delete = "20m"
   }
   name = "reddit-app"
-  count = 1
   metadata = {
   ssh-keys = "ubuntu:${file(var.public_key_path)}"
   }
