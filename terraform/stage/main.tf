@@ -6,13 +6,13 @@ provider "yandex" {
 }
 
 module "app" {
-  source = "./modules/app"
+  source = "../modules/app"
   public_key_path = var.public_key_path
   subnet_id = var.subnet_id
 }
 
 module "db" {
-  source = "./modules/db"
+  source = "../modules/db"
   public_key_path = var.public_key_path
   subnet_id = var.subnet_id
 }
