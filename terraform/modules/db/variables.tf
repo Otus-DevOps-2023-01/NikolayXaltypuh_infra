@@ -1,9 +1,3 @@
-variable cloud_id{
-  description = "Cloud"
-}
-variable folder_id {
-  description = "Folder"
-}
 variable zone {
   description = "Zone"
   # Значение по умолчанию
@@ -13,10 +7,10 @@ variable public_key_path {
   # Описание переменной
   description = "Path to the public key used for ssh access"
 }
-
-variable service_account_key_file{
-  description = "key .json"
+variable subnet_id{
+  description = "Subnet"
 }
+
 variable "instances_count" {
   description = "Count instances"
   default     = 1
@@ -26,6 +20,7 @@ variable "region_id" {
   default     = "ru-central1"
 }
 
-variable subnet_id{
-  description = "Subnet"
+variable db_disk_image {
+  description = "Disk image for reddit db"
+  default = "fd8fkrbk70vmcmut1fic"
 }
