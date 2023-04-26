@@ -29,3 +29,13 @@ variable "region_id" {
 variable subnet_id{
   description = "Subnet"
 }
+
+variable  access_key  {
+description  =  "Key id"
+}
+variable  secret_key  {
+description  =  "Secret key"
+}
+variable  bucket_name  {
+description  =  "Bucket name"
+}
