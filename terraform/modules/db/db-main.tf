@@ -42,7 +42,8 @@ resource "yandex_compute_instance" "db" {
     user = "ubuntu"
     agent = false
     # путь до приватного ключа
-    private_key = file("~/.ssh/appuser")
+#    private_key = file("~/.ssh/appuser")
+    private_key = file("appuser")
   }
 
 #  provisioner "file" {
