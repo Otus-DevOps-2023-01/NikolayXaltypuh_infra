@@ -36,7 +36,7 @@ resource "yandex_compute_instance" "app" {
     agent = false
     # путь до приватного ключа
 #    private_key = file("~/.ssh/appuser")
-    private_key = file("../../appuser")
+    private_key = file("appuser")
   }
 
   provisioner "file" {
