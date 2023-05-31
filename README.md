@@ -1,4 +1,12 @@
-# students
-Student registration
-testapp_IP = 51.250.87.151
-testapp_port = 9292
+# sergeikhrustalev_infra
+sergeikhrustalev Infra repository
+
+Ansible3:
+
+Выполнил ДЗ согласно инструкции:
+
+- Перенес плейбуки в роли
+- Описал окружения stage и prod
+- Использовал коммьюнити роль nginx
+- Использовал ansible vault
+
