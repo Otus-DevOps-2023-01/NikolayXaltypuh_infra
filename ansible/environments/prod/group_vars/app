@@ -1,9 +1,9 @@
-db_host: 10.128.0.19
+db_host: 10.132.20.23
 
 nginx_sites:
   default:
     - listen 80
     - server_name "reddit"
     - location / {
-        Bproxy_pass http://127.0.0.1:порт_приложения;
+        proxy_pass http://127.0.0.1:порт_приложения;
       }
