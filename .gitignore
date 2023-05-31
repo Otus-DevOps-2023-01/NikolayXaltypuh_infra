@@ -5,3 +5,4 @@
 .terraform/
 *.old
 *.retry
+vault.key
