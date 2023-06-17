@@ -1,5 +1,3 @@
-# sergeikhrustalev_infra
-sergeikhrustalev Infra repository
 
 Ansible3:
 
