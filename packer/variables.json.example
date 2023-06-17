@@ -1,0 +1,5 @@
+{
+    "folder_id": "your-forder-id",
+    "source_image_family": "your-image-source-family",
+    "service_account_key_file": "packer/key.json" 
+}
