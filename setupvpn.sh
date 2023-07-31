@@ -1,3 +1,4 @@
+
 cat <<EOF> setupvpn.sh
 #!/bin/bash
 echo "deb http://repo.pritunl.com/stable/apt focal main" | sudo tee /etc/apt/sources.list.d/pritunl.list
